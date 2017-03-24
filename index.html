@@ -1,0 +1,758 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!--> <html> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <meta name="description" content="YusifEl-awawdehsWebsie/Portfolio">
+    <meta name="Yusif El-awawdeh" content="Online Portfolio">
+
+    <title>Yusif E.</title>
+	 <!-- favicon -->
+	 <link href="img/yusif.ico" rel="shortcut icon" type="image/x-icon" />
+	
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+ 
+    <!-- Custom Google Web Font -->
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+	  <link href='http://fonts.googleapis.com/css?family=Arvo:400,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+	
+  <!-- Custom CSS-->
+  <link href="css/general.css" rel="stylesheet">
+	
+	<!-- Owl-Carousel -->
+  <link href="css/custom.css" rel="stylesheet">
+	<link href="css/owl.carousel.css" rel="stylesheet">
+  <link href="css/owl.theme.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/animate.css" rel="stylesheet">
+	
+	<!-- Magnific Popup core CSS file -->
+	<link rel="stylesheet" href="css/magnific-popup.css"> 
+	
+	<script src="js/modernizr-2.8.3.min.js"></script>  <!-- Modernizr /-->
+	<!--[if IE 9]>
+		<script src="js/PIE_IE9.js"></script>
+	<![endif]-->
+	<!--[if lt IE 9]>
+		<script src="js/PIE_IE678.js"></script>
+	<![endif]-->
+
+	<!--[if lt IE 9]>
+		<script src="js/html5shiv.js"></script>
+	<![endif]-->
+    
+<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('txt').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+
+</head>
+
+<body id="home" onload="startTime()"s>
+
+	<!-- Preloader -->
+<div id="preloader">
+	<div id="status"></div>
+</div>
+	
+	<!-- FullScreen -->
+  <div class="intro-header">
+	<div class="col-xs-12 text-center abcen1">
+			<h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Hi, I'm Yusif</h1>
+			<h3 class="h3_home wow fadeIn" data-wow-delay="0.8s">UI/UX Designer & Developer</h3>
+			<ul class="list-inline intro-social-buttons">
+				<li><a href="https://www.linkedin.com/in/yusifelawawdeh" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name"><i class="fa fa-linkedin" aria="hidden"></i>&nbsp LinkedIn</span></a>
+				</li>
+				<li ><a href="https://www.behance.net/yusifelawa7e98" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name"><i class="fa fa-behance" aria="hidden"></i>&nbsp Behance</span></a>
+				</li>
+  		</ul>
+	<div class="col-lg-12 text-center">
+  </div>
+	<div id="txt">
+  </div>  
+	</div>
+	</div>
+       
+        
+        <!-- /.container -->
+		<div class="col-xs-12 text-center abcen wow fadeIn">
+			<div class="button_down "> 
+				<a class="imgcircle wow bounceInUp" data-wow-duration="1.5s"  href="#Development"> <img class="img_scroll" src="img/icon/circle.png" alt=""> </a>
+			</div>
+		</div>
+    </div>
+	
+	<!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home"><i class="fa fa-home" aria-hidden="true"></i></a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					
+					<li class="menuItem"><a href="#Development"><i class="fa fa-code" aria-hidden="true"></i> Code</a></li>
+					<li class="menuItem"><a href="#Design"><i class="fa fa-picture-o" aria-hidden="true"></i> Design</a></li>
+					<li class="menuItem"><a href="#Portfolio"><i class="fa fa-folder-open-o" aria-hidden="true"></i> Projects</a></li>
+					<li class="menuItem"><a href="#AlmaMater"><i class="fa fa-university" aria-hidden="true"></i> College</a></li>
+					<li class="menuItem"><a href="#Linguist"><i class="fa fa-language" aria-hidden="true"></i> Lingua</a></li>
+                    <li class="menuItem"><a href="#Contact"><i class="fa fa-phone" aria-hidden="true"></i> Contact</a></li>
+				</ul>
+			</div>
+		   
+		</div>
+	</nav> 
+	
+	<!-- Development ToolBox Section -->
+	<div id="Development" class="content-section-b" style="border-top: 0">
+		<div class="container">
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Development Toolbox</h2>
+				<p class="lead" style="margin-top:0">As of Febuary, 2017</p>
+				
+			</div>
+			
+			<!-- Row 1 of code languages i know -->
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img class="rotate" src="img/icon/tweet.svg" alt="Generic placeholder image">
+				  <h3>HTML 5</h3>
+                 
+				  <p class="lead">Hyper text markup language, by far the most essential language for the design of the modern web, and the first language i learned to code in.</p>
+<div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+    <span class="sr-only">95% Complete</span>
+    
+  </div>
+</div>
+<p class="lead"> 95% </p>
+				  
+				</div>
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/picture.svg" alt="Generic placeholder image">
+				   <h3>CSS 3</h3>
+				   <p class="lead">CSS<sup>3</sup> by far the most flexible method of styling a web page. CSS has become my bread and butter when time comes to make a website look and behave pretty. </p>
+                   <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
+    <span class="sr-only">93% Complete</span>
+  </div>
+</div>
+<p class="lead"> 93% </p>
+				   
+				</div>
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/retina.svg" alt="Generic placeholder image">
+				   <h3>JavaScript</h3>
+					<p class="lead">Camel case, control flow, functions, and and arrays. Javascript is one of the core foundations for the modern web, and important for any serious developer.</p>
+                    <div class="progress">
+  <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+    <span class="sr-only">85% Complete</span>
+  </div>
+</div>
+<p class="lead"> 85% </p>
+				  
+				</div>
+				
+			</div>
+			<!--End of 1st Row -->
+			
+			<!-- 2nd Row of of frameworks i know -->	
+			<div class="row">
+			
+				<div class="col-sm-4  wow fadeInDown text-center">
+				  <img class="rotate" src="img/icon/Angular.svg" alt="Generic placeholder image">
+				  <h3>Angular 2</h3>
+				  <p class="lead">Components, Services, and typescript. Angular<sup>2</sup> is super cool and made me rethink how to make web Apps.</p>
+                  <div class="progress">
+  <div class="progress-bar progress-bar active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+    <span class="sr-only">75% Complete</span>
+  </div>
+</div>
+<p class="lead"> 75% </p>
+				 
+				</div>
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/map.svg" alt="Generic placeholder image">
+				   <h3>jQuery</h3>
+				   <p class="lead">Jquery is one of the most fun Javascript library's to implement on a project, instant interactivity.</p>
+                   <div class="progress">
+  <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+    <span class="sr-only">80% Complete</span>
+  </div>
+</div>
+<p class="lead"> 80% </p>
+				   
+				</div>
+				
+				<div class="col-sm-4 wow fadeInDown text-center">
+				  <img  class="rotate" src="img/icon/browser.svg" alt="Generic placeholder image">
+				   <h3>Bootstrap</h3>
+				 <p class="lead">I realize there are a lot of frameworks out there that could contend, but bootstrap is tried and true for my projects. </p>
+                 <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+    <span class="sr-only">90% Complete</span>
+  </div>
+</div>
+<p class="lead"> 90% </p>
+				  
+				</div>
+				
+			</div>
+		</div>
+	</div>
+    <!-- Design Aptitude Section -->
+    <div id="Design" class="content-section-c ">
+		<div class="container">
+        <div class="col-md-6 col-md-offset-3 text-center white">
+				<h2>Design ToolBox</h2>
+				<p class="lead" style="margin-top:0">As of Febuary, 2017</p>
+				
+			</div>
+			
+			<div class="row">
+			
+				<div class="col-sm-4 wow fadeInDown text-center white">
+				  <img class="icon" src="img/designsvgs/Photoshop.svg" alt="Photoshop Logo">
+				  <h3>Photoshop CC</h3>
+                 
+				  <p class="lead">Classic Photoshop, where would us Designers be without a tool that exports jpgs, pngs, and gifs.</p>
+<div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+    <span class="sr-only">95% Complete</span>
+    
+  </div>
+</div>
+<p class="lead"> 95% </p>
+				  
+				</div>
+				
+				<div class="col-sm-4 wow fadeInDown text-center white">
+				  <img  class="icon" src="img/designsvgs/Illustrator.svg" alt="Illustrator Logo">
+				   <h3>Illustrator CC</h3>
+				   <p class="lead"> Illustrator my go to for forge new graphics or for turning them into SVG's that scale with responsive websites. </p>
+                   <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 93%">
+    <span class="sr-only">93% Complete</span>
+  </div>
+</div>
+<p class="lead"> 93% </p>
+				   
+				</div>
+				
+				<div class="col-sm-4 wow fadeInDown text-center white">
+				  <img  class="icon" src="img/designsvgs/ExperienceDesign.svg" alt="Expirience Design logo">
+				   <h3>Experience Design CC</h3>
+					<p class="lead">UI/UX Prototyping goodness packedged in my favorate emoji. In all seriousnesss this is an awesome application.</p>
+                    <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+    <span class="sr-only">90% Complete</span>
+  </div>
+</div>
+<p class="lead"> 90% </p>
+				  
+				</div>
+				
+			</div>
+				
+			<div class="row">
+			
+				<div class="col-sm-4  wow fadeInDown text-center white">
+				  <img class="icon" src="img/designsvgs/AfterEffects.svg" alt="Generic placeholder image">
+				  <h3>After Effects CC</h3>
+				  <p class="lead">After Effects, the saving grace for animated graphics and VFX, After Effects has proven to be my go to animation tool. </p>
+                  <div class="progress">
+  <div class="progress-bar progress-bar active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 78%">
+    <span class="sr-only">75% Complete</span>
+  </div>
+</div>
+<p class="lead"> 78% </p>
+				 
+				</div>
+				
+				<div class="col-sm-4 wow fadeInDown text-center white">
+				  <img  class="icon" src="img/designsvgs/PremirePro.svg" alt="Generic placeholder image">
+				   <h3>Premiere Pro CC</h3>
+				   <p class="lead">Video Editing in Premiere Pro is now a neccessity when i'm in need of motion dessign for my projects . </p>
+                   <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 95%">
+    <span class="sr-only">95% Complete</span>
+  </div>
+</div>
+<p class="lead"> 95% </p>
+				   
+				</div>
+				
+				<div class="col-sm-4 wow fadeInDown text-center white">
+				  <img  class="icon" src="img/designsvgs/c4d.svg" alt="Generic placeholder image">
+				   <h3>Cinema 4D</h3>
+				 <p class="lead">I was taught 3d modeling, animation and rendering with Cinema 4D, and due to its ease of use, its been my go to 3D suite. </p>
+                 <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+    <span class="sr-only">90% Complete</span>
+  </div>
+</div>
+<p class="lead"> 90% </p>
+				  
+				</div>
+				
+			</div>
+		</div>
+	</div>
+        
+        </div>
+    </div>
+	<!-- Projects Portfolio -->
+    <div id="Portfolio" class="content-section-b" style="border-top: 0">
+		<div class="container">
+        <div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Latest Portfolio</h2>
+				<p class="lead" style="margin-top:0">Latest as of Febuary, 2017</p>
+				
+			</div>
+        
+                <div class="row">
+        <!-- card 1 -->
+   <div class="bound">     
+  <div class="col-sm-6 col-md-4 wow fadeInDown text-center">
+    <div class="thumbnail">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/3a9bbb45497755.583328e7820a2.png" alt="..." class="img-rounded">
+         <div class="caption">
+        <h3>Escape From Tokyo</h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+    <span class="sr-only">%100 Complete</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project Completed<br> Dec, 2016</p>
+        <p>My first mobile game i developed out of a challange, the rules were to develop and release a mobile game in a single month.</p>
+        <p><a href"https://itunes.apple.com/us/app/escape-from-tokyo/id1178443246?mt=8" class="btn btn-primary" role="button"><i class="fa fa-apple" aria="hidden"></i> &nbsp App Store </a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- card 2 -->
+  <div class="bound">
+  <div class="col-sm-6 col-md-4 wow fadeInDown text-center card2">
+    <div class="thumbnail">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f07bd234270599.56caded41716b.png" alt="..." class="img-rounded">
+      <div class="caption">
+        <h3>FinnSense Website</h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+    <span class="sr-only">95% Completed</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project Complete<br> May, 2015 </p>
+        <p>A business front website designed for the Finnsense brand, involving the world's first automated private Intelligence apperatus</p>
+        <p><a href="#" class="btn btn-primary " role="button"><i class="fa fa-behance" aria="hidden"></i> &nbsp Behance </a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- card 3 -->
+  <div class="bound">
+  <div class="col-sm-12 col-md-4 wow fadeInDown text-center card2">
+    <div class="thumbnail">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/1448a845740465.588c166e05f5f.jpg" alt="..." class="img-rounded">
+      <div class="caption">
+        <h3>FinnSense Mobile App</h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+    <span class="sr-only">100% Complete</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project Completed <br>Dec, 2015</p>
+        <p>University UI/UX Design project for the Finnsense Brand App involving automated intelligence as a product.</p>
+        <p><a href="#" class="btn btn-primary" role="button"> <i class="fa fa-behance" aria="hidden"></i> &nbsp Behance</a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row">
+<!-- card 4 -->
+
+<div class="bound">
+  <div class="col-sm-6 col-md-4 wow fadeInDown text-center card2">
+    <div class="thumbnail">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/c60e8934267329.56cab7e08156a.jpg" alt="..." class="img-rounded">
+      <div class="caption">
+        <h3>Project Android<sup>+</sup></h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-warning active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+    <span class="sr-only">40% Complete</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project in Progrerss<br>latest Aug, 2016</p>
+        <p>Project Android<sup>+</sup> is a PC Game i am developing and designing as a method of teaching myself how to use and script inside of Unreal Engine 4.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-behance" aria="hidden"></i> &nbsp Behance</a> 
+		<a href="#" class=" btn btn-default" role="button"> <i class="fa fa-youtube-play" aria="hidden"></i> &nbsp Youtube </a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- card 5 --> 
+  <div class="bound">
+  <div class="col-sm-6 col-md-4 wow fadeInDown text-center card2">
+    <div class="thumbnail">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/7dde4228666373.55cbad328ccb7.png" alt="..." class="img-rounded">
+      <div class="caption">
+        <h3>The Mountain</h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+    <span class="sr-only">100% Complete</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project Completed<br> Oct, 2015</p>
+        <p>A 3d modeling & Rendering Project on Designing landscapes i implemented in Project Android<sup>+</sup> using Cinema 4d & World Machine 2.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-behance" aria="hidden"></i>&nbsp Behance</a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-linkedin" aria="hidden"></i> &nbsp LinkedIn </a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- card 6 -->
+  <div class="bound">
+  <div class="col-sm-12 col-md-4 wow fadeInDown text-center card2">
+    <div class="thumbnail">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/83047828619187.55c9be8e6cbde.png" alt="..." class="img-rounded">
+      <div class="caption">
+        <h3>Set Top Box</h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+    <span class="sr-only">100% Complete</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project Completed<br> June, 2015</p>
+        <p>This project was a part of my Internship at Zaini Media, Dubai on a project for Humax Set top boxes in the UAE.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-behance" aria="hidden"></i> &nbsp Behance </a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-linkedin" aria="hidden"></i> &nbsp LinkedIn </a></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="row">
+<!-- card 7 -->
+<div class="bound">
+  <div class="col-sm-6 wow col-md-4 fadeInDown text-center card2">
+    <div class="thumbnail">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/ae689c45569159.588c18ce79277.jpg" alt="..." class="img-rounded">
+      <div class="caption">
+        <h3>Project 1984</h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-danger active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+    <span class="sr-only">20% Complete</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project in Progress<br>Latest Nov, 2016</p>
+        <p>A start up style development with two collegues on a quest to build the most intersting plot twists ever in a game.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-behance" aria="hidden"></i>&nbsp Behance </a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- card 8 -->  
+  <div class="bound">
+  <div class="col-sm-6 col-md-4 wow fadeInDown text-center card2">
+    <div class="thumbnail">
+      <iframe width="100%" height="195" src="https://sketchfab.com/models/4e17a9c634be49669afaabb9120b82a8/embed" frameborder="0" allowvr allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" onmousewheel=""></iframe>
+      <div class="caption">
+        <h3>Project Swarm</h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 90%">
+    <span class="sr-only">90% Complete</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project Completed<br>Oct, 2016</p>
+        <p>This Project was a proof of concept of the Finnsense Product, has since been shifted over to the Hive Mind project.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-cube" aria="hidden"></i> &nbsp SketchFab </a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-linkedin" aria="hidden"></i> &nbsp Linkedin </a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  
+  <!-- card 9 -->
+  
+  <div class="bound">
+  <div class="col-sm-12 col-md-4 wow fadeInDown text-center card2">
+    <div class="thumbnail">
+      <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/64ec2e25645237.56348906f3061.png" alt="..." class="img-rounded">
+      <div class="caption">
+        <h3>Project Human<sup>+</sup></h3>
+        <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+    <span class="sr-only">100% Complete</span>
+     </div>
+</div>
+<p class="lead" style="margin-top:0">Project Completed<br>Sept, 2014</p>
+        <p>This was a University project in which i had to design a quick 30s advert for a product/service i enjoy. Naturally i gravitated to E-Sports.</p>
+        <p><a href="#" class="btn btn-primary" role="button"><i class="fa fa-behance" aria="hidden"></i> &nbsp Behance </a> <a href="#" class="btn btn-default" role="button"><i class="fa fa-youtube-play" aria="hidden"></i> &nbsp Youtube </a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+        </div>
+    </div>
+    </div>
+   
+	<!-- Alma Mater Section -->
+    <div id ="AlmaMater" class="content-section-a">
+
+        <div class="container">
+			
+            <div class="row">
+			
+				<div class="col-xs-12 col-sm-6 pull-right wow fadeInRightBig">
+                    <img class="img-responsive" style="display:block;margin:auto;position:relative;" src="img/schoollogo.svg" alt="">
+                </div>
+				
+                <div class="col-sm-6 wow fadeInLeftBig"  data-animation-delay="200">   
+                    <h3 class="section-heading">My Alma Mater</h3>
+					<div class="sub-title lead3">The American University in Dubai<br> Bachelor of Fine Arts</div>
+                    <p class="lead">
+						I graduated from the American University in Dubai in April, 2016 with a 
+                        Bachelor of Fine Arts in Digital Media. I took part in a great deal of 
+                        Amazing projects at the University, many of which have sprouted into major
+                        Ventures outside of Academia. I'm excited to say that all of my former Professors
+                        have done an amazing job making my educational expirience worth while.
+					</p>
+
+					 <p><a class="btn btn-embossed btn-primary" href="#" role="button"><i class="fa fa-sitemap" aria="hidden"></i>&nbsp AUD Site</a> 
+					 <a class="btn btn-embossed btn-info" href="#" role="button"><i class="fa fa-linkedin" aria="hidden"></i>&nbsp LinkedIn</a></p>
+				</div>   
+            </div>
+        </div>
+        </div>    
+        <!-- Language Aptitude Section -->
+    <div id="Linguist" class="content-section-c">
+
+        <div class="container">
+
+             <div class="row">
+			 
+				<div class="col-xs-12 col-sm-6 pull-right wow fadeInRightBig img-responsive">
+                    <img class="img-responsive" style="display:block;margin:auto;position:relative;" src="img/download.svg" alt="">
+                </div>
+                
+                			 
+                <div class="col-sm-6 wow fadeInLeftBig white"  data-animation-delay="200">   
+                    <h3 class="section-heading">I'm Tri-Lingual</h3>
+                    <p class="lead">Growing up, traveling the world has given a special opportunity 
+                    to explore culture and language, and i'm happy to say i've picked up a few on the 
+                    journey.
+					</p>
+					
+					<ul class="descp lead2">
+						<li><em class="glyphicon glyphicon-th"></em> English<sup>Native</sup>
+						  <div class="progress">
+  <div class="progress-bar progress-bar-success active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+    <span class="sr-only">100% Complete</span>
+     </div>
+</div>
+                        </li>
+						<li><i class="glyphicon glyphicon-th-list"></i>Arabic<sup>Fluent</sup>
+                        <div class="progress">
+  <div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 85%">
+    <span class="sr-only">85% Complete</span>
+     </div>
+</div>
+                        </li>
+						<li><i class="glyphicon glyphicon-th-large"></i>German<sup>Fair</sup>
+                        <div class="progress">
+  <div class="progress-bar progress-bar-warning active" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+    <span class="sr-only">65% Complete</span>
+     </div>
+</div>
+                        </li>
+					</ul>
+				</div>           
+            </div>
+        </div>
+
+    </div>
+
+		
+	<!-- Contact Section -->
+
+	<div id="contact" class="content-section-a">
+    <br>
+       
+        <div id="Contact" class="container">
+			<div class="row">
+			
+			<div class="col-md-6 col-md-offset-3 text-center wrap_title">
+				<h2>Contact Me </h2>
+				<p class="lead" style="margin-top:0">Want me on a Project ?</p>
+			</div>
+
+      <form action="" method="post" id="contact_form">
+    <!--Name submit-->
+				<div class="col-md-6">
+					<div class="form-group">
+						<label for="InputName">Your Name</label>
+						<div class="input-group">
+							<input type="text" class="form-control" name="first_name" id="first_name" placeholder="Enter Name" required>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-user form-control-feedback"></i></span>
+						</div>
+					</div>
+			 <!--Email submi-->
+					<div class="form-group">
+						<label for="InputEmail">Your Email</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="email" placeholder="Enter Email" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-envelope form-control-feedback"></i></span>
+						</div>
+					</div>
+        <!--Subject submit-->
+          <div class="form-group">
+						<label for="InputSubject">Subject</label>
+						<div class="input-group">
+							<input type="email" class="form-control" id="InputEmail" name="subject" placeholder="Enter Subject" required  >
+							<span class="input-group-addon"><i class="glyphicon glyphicon-folder-open form-control-feedback"></i></span>
+						</div>
+					</div>
+				<!--Message Submit-->
+					<div class="form-group">
+						<label for="InputMessage">Message</label>
+						<div class="input-group">
+							<textarea name="message" id="InputMessage" class="form-control" rows="5" required></textarea>
+							<span class="input-group-addon"><i class="glyphicon glyphicon-pencil form-control-feedback"></i></span>
+						</div>
+					</div>
+           <!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Thanks for contacting us, we will get back to you shortly.</div>
+          <!--Submit button-->
+					<input type="submit" name="submit" id="submit" value="Send" class="btn wow tada btn-embossed btn-primary pull-right">
+				</div>
+</form>
+        	
+			
+			<hr class="featurette-divider hidden-lg">
+				<div class="col-md-5 col-md-push-1 address">
+					<address>
+					<h3>Office Location</h3>
+					<li class="social"><a href="https://www.google.com/maps/place/Houston,+TX+77057/@29.7481903,-95.5080369,14z/data=!3m1!4b1!4m5!3m4!1s0x8640c3e81dfbe2f1:0xa1e9e79f371dc605!8m2!3d29.7503969!4d-95.4935119"><i class="fa fa-address-card-o fa-2x" aria-hidden="true"></i></a></li>
+					<p class="lead">
+					Texas, Houston 77057<br>
+					Phone: 832-873-8439<br>
+					</p>
+					</address>
+
+					<h3>Social</h3>
+					<li class="social"> 
+					<a href="https://www.linkedin.com/in/yusifelawawdeh"><i class="fa fa-linkedin-square fa-2x"> </i></a>
+					<a href="https://www.behance.net/yusifelawa7e98"><i class="fa fa-behance-square fa-2x"> </i> </a> 
+					<a href="https://www.youtube.com/channel/UCx0W6jr6IFNDHXtQzUXpgRw"><i class="fa fa-youtube-square fa-2x"> </i></a>
+					<a href="https://www.pinterest.com/yusifelawawdeh/"><i class="fa fa-pinterest-square fa-2x"> </i> </a>
+          </li>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+    </body>
+    
+    <!-- Footer Subscribe Section -->
+            <footer>
+            
+            <div  class="content-section-c ">
+		<div class="container">
+			<div class="row">
+			<div class="col-md-6 col-md-offset-3 text-center white">
+				<h2>Feeling Bored ?</h2>
+				<p class="lead" style="margin-top:0">Why you should join my Newsletter!</p>
+			 </div>
+			<div class="col-md-6 col-md-offset-3 text-center">
+				<div class="mockup-content">
+						<div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">s
+							<button type="button "><span>Subscribe Right Here !</span></button>
+							<div class="morph-content">
+								<div>
+									<div class="content-style-form content-style-form-4 ">
+										<h2 class="morph-clone">Subscribe Right Here !</h2>
+										<form action="//yusifelawawdeh.us15.list-manage.com/subscribe/post?u=510ec23a471f02b9ed5c2be69&amp;id=205d212a14" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+											<p><label>Your Email Address</label><input type="text"/></p>
+                                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_510ec23a471f02b9ed5c2be69_205d212a14" tabindex="-1" value=""></div>
+											<p><button>Subscribe</button></p>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>	
+			</div>
+		</div>
+	</div>	
+			
+			
+      </footer>
+
+    <!-- JavaScript -->
+  <script src="js/jquery-1.10.2.js"></script>
+  <script src="js/bootstrap.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script src="js/script.js"></script>
+	<!-- StikyMenu -->
+	<script src="js/stickUp.min.js"></script>
+	<script type="text/javascript">
+	  jQuery(function($) {
+		$(document).ready( function() {
+		  $('.navbar-default').stickUp();
+		  
+		});
+	  });
+	
+	</script>
+	<!-- Smoothscroll -->
+	<script type="text/javascript" src="js/jquery.corner.js"></script> 
+	<script src="js/wow.min.js"></script>
+	<script>
+	 new WOW().init();
+	</script>
+	<script src="js/classie.js"></script>
+	<script src="js/uiMorphingButton_inflow.js"></script>
+	<!-- Magnific Popup core JS file -->
+	<script src="js/jquery.magnific-popup.js"></script>
+  
+</body>
+
+</html>
